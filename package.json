@@ -1,0 +1,41 @@
+{
+  "name": "@firmanc/eslint-configs",
+  "version": "0.0.1",
+  "description": "My configurations for JavaScript linting tools",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Firmanc/eslint-configs.git"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "volta": {
+    "node": "12.22.1",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "setup": "yarn lerna:init && yarn lerna:bootstrap",
+    "lerna:init": "lerna init",
+    "lerna:bootstrap": "lerna bootstrap --no-ci",
+    "lerna:exec": "lerna exec",
+    "lerna:publish": "lerna publish",
+    "lint": "eslint packages"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "lint",
+    "linter",
+    "eslint",
+    "tslint",
+    "stylelint"
+  ]
+}
