@@ -1,0 +1,38 @@
+{
+  "name": "@firmanc/babel-react",
+  "version": "0.0.1",
+  "description": "Babel configuration for React framework",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Firmanc/build-tools-javascript.git"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "./.babelrc",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7",
+    "@babel/plugin-transform-regenerator": "^7",
+    "@babel/plugin-transform-runtime": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "@babel/preset-typescript": "^7"
+  },
+  "files": [
+    ".babelrc",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "babel"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "name": "@firmanc/eslint-configs",
-  "version": "0.0.1",
-  "description": "My configurations for JavaScript linting tools",
+  "name": "@firmanc/build-tools-javascript",
+  "version": "0.0.3",
+  "description": "My configurations and sane defaults for multiple JavaScript tools",
   "license": "MIT",
   "contributors": [
     "Firman Cahyandi <hello@firmanc.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:Firmanc/eslint-configs.git"
+    "url": "ssh://git@github.com:Firmanc/build-tools-javascript.git"
   },
   "engines": {
     "node": ">= 12"
@@ -22,14 +22,12 @@
     "lerna:init": "lerna init",
     "lerna:bootstrap": "lerna bootstrap --no-ci",
     "lerna:exec": "lerna exec",
-    "lerna:publish": "lerna publish",
+    "lerna:publish": "lerna exec -- safe-publish",
     "lint": "eslint packages"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "lerna": "^4.0.0",
+    "safe-publish": "^1.2.1"
   },
   "keywords": [
     "lint",

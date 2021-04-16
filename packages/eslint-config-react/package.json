@@ -1,0 +1,40 @@
+{
+  "name": "@firmanc/eslint-config-react",
+  "version": "0.0.9",
+  "description": "ESLint configuration and rules for JavaScript",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Firmanc/build-tools-javascript.git"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "@firmanc/eslint-config-base": "0.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.0.1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "rules"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@firmanc/typescript-config",
+  "version": "0.0.2",
+  "description": "Configurations to use typescript in node",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Firmanc/build-tools-javascript.git"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "./tsconfig.json",
+  "dependencies": {
+    "typescript": "^4"
+  },
+  "files": [
+    "tsconfig.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

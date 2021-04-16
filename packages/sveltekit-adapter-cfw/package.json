@@ -1,0 +1,21 @@
+{
+  "name": "@firmanc/sveltekit-adapter-cfw",
+  "version": "0.0.5",
+  "type": "module",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "main": "index.js",
+  "files": [
+    "copy"
+  ],
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "esbuild": "^0.12.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

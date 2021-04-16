@@ -1,0 +1,37 @@
+{
+  "name": "@firmanc/eslint-config-base",
+  "version": "0.1.0",
+  "description": "ESLint configuration and rules for React",
+  "license": "MIT",
+  "contributors": [
+    "Firman Cahyandi <hello@firmanc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Firmanc/build-tools-javascript.git"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "rules"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
